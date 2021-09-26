@@ -4,12 +4,13 @@ Maven Training for SE EP conversion
 
 
 Folder Structure
-Grocery.java = class contains related functionality of grocery transaction activities
-Customer.java = class contains related functionality of customer information and status
-Payment.java = class contains related functionality of payment/purchase activities
-CreditCard.java = child class of payment as option for customer to do payment/purchase activity
-App.java = main class to to run the grocery app
-AppTest.java= unit test to validate all logic of grocery app
+
+- Grocery.java = class contains related functionality of grocery transaction activities
+- Customer.java = class contains related functionality of customer information and status
+- Payment.java = class contains related functionality of payment/purchase activities
+- CreditCard.java = child class of payment as option for customer to do payment/purchase activity
+- App.java = main class to to run the grocery app
+- AppTest.java= unit test to validate all logic of grocery app
 
 
 - You could check the logic/requirement of the assignment by compiling the App.java or you could also check Junit test validation.
