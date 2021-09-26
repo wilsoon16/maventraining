@@ -1,6 +1,8 @@
 # maventraining
 Maven Training for SE EP conversion
 <img width="601" alt="Screen Shot 2021-09-26 at 20 06 29" src="https://user-images.githubusercontent.com/47310644/134809342-02c7f8a0-60da-4b8d-ba84-d34afea15b13.png">
+
+
 Folder Structure
 Grocery.java = class contains related functionality of grocery transaction activities
 Customer.java = class contains related functionality of customer information and status
