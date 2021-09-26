@@ -20,8 +20,8 @@ public class Grocery {
 
 		// qty and price will change according to current day
 		float indexOfDay = dayOfWeek.getValue();
-		Grocery.setVegetablePrice(indexOfDay);
-		Grocery.setVegetableQuantity(indexOfDay);
+		setVegetablePrice(indexOfDay);
+		setVegetableQuantity(indexOfDay);
 	}
 
 	public static void setVegetablePrice(Float indexOfDay) {

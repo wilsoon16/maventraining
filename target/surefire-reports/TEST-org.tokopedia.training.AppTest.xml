@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.tokopedia.training.AppTest" time="0.054" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.tokopedia.training.AppTest" time="0.037" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/nakama/eclipse-workspace/training/target/surefire/surefirebooter2481403722382391504.jar /Users/nakama/eclipse-workspace/training/target/surefire 2021-09-26T18-51-30_575-jvmRun1 surefire17590857990036642427tmp surefire_0323533015726390433tmp"/>
+    <property name="sun.java.command" value="/Users/nakama/eclipse-workspace/training/target/surefire/surefirebooter1765834622579781056.jar /Users/nakama/eclipse-workspace/training/target/surefire 2021-09-26T19-31-34_697-jvmRun1 surefire13624753150957915608tmp surefire_06427612953364338146tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/nakama/eclipse-workspace/training/target/test-classes:/Users/nakama/eclipse-workspace/training/target/classes:/Users/nakama/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/nakama/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/nakama/eclipse-workspace/training/target/surefire/surefirebooter2481403722382391504.jar"/>
+    <property name="surefire.real.class.path" value="/Users/nakama/eclipse-workspace/training/target/surefire/surefirebooter1765834622579781056.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
@@ -61,15 +61,15 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="assertOrderPriceExceedQty" classname="org.tokopedia.training.AppTest" time="0.017"/>
-  <testcase name="assertNewMemberFee" classname="org.tokopedia.training.AppTest" time="0.001"/>
+  <testcase name="assertOrderPriceExceedQty" classname="org.tokopedia.training.AppTest" time="0.006"/>
+  <testcase name="assertNewMemberFee" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertQuantityDynamicEveryDay" classname="org.tokopedia.training.AppTest" time="0.001"/>
-  <testcase name="assertPaymentCreditCard" classname="org.tokopedia.training.AppTest" time="0.001"/>
+  <testcase name="assertPaymentCreditCard" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertGetTotalPrice" classname="org.tokopedia.training.AppTest" time="0.001"/>
   <testcase name="assertPriceDynamicEveryDay" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertOtherPayment" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertPaymentMoreThan100" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertExistingMemberFee" classname="org.tokopedia.training.AppTest" time="0"/>
   <testcase name="assertNewMemberDiscount" classname="org.tokopedia.training.AppTest" time="0"/>
-  <testcase name="assertExistingMemberDiscount" classname="org.tokopedia.training.AppTest" time="0"/>
+  <testcase name="assertExistingMemberDiscount" classname="org.tokopedia.training.AppTest" time="0.001"/>
 </testsuite>
