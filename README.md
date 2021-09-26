@@ -1,5 +1,5 @@
 # maventraining
-
+Maven Training for SE EP conversion
 
 - You could check the logic/requirement of the assignment by compiling the App.java or you could also check Junit test validation.
 
