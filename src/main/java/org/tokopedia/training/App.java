@@ -65,8 +65,33 @@ public class App {
 		System.out.println("Succefully purchase and total billing:" + subtotal+'$');
 
 	}
-
+	
 	public static void thirdOrderSenario() {
+
+		Grocery monthlyGrocery = new Grocery();
+
+		// quantity is empty because of prev customer buy all products
+		monthlyGrocery.orderVegetable("Carrot", 20);
+
+		// getTotalBasketPrice
+		float totalCartPrice = monthlyGrocery.getTotalPrice();
+		System.out.println("Total Overall Vegetable Price: " + totalCartPrice + '$');
+
+		// recognizing customer type
+		Customer wilson = new Customer();
+		System.out.println("Member Status: " + wilson.getMemberStatus());
+		System.out.println("Member Discount rate: " + wilson.getDicountRateMember() + "%");
+		System.out.println("Member Fee Price : " + wilson.getMemberFee() + "$");
+
+		// payment process gopay
+		Payment gopay = new Payment();
+
+		float subtotal = gopay.paymentProcessing(totalCartPrice, wilson.getDicountRateMember(), wilson.getMemberFee());
+		System.out.println("Succefully purchase and total billing:" + subtotal+'$');
+
+	}
+
+	public static void fourthOrderSenario() {
 
 		Grocery monthlyGrocery = new Grocery();
 
@@ -93,7 +118,7 @@ public class App {
 		System.out.println("Succefully purchase and total billing:" + subtotal+'$');
 	}
 
-	public static void fourthOrderSenario() {
+	public static void fifthOrderScenario() {
 
 		Grocery monthlyGrocery = new Grocery();
 
@@ -120,6 +145,8 @@ public class App {
 		System.out.println("Succefully purchase and total billing:" + subtotal+'$');
 
 	}
+	
+	
 
 
 
@@ -134,6 +161,8 @@ public class App {
 		thirdOrderSenario();
 		System.out.println("---------------------------------------------------------" + "\n" + "\n");
 		fourthOrderSenario();
+		System.out.println("---------------------------------------------------------" + "\n" + "\n");
+		fifthOrderScenario();
 
 	}
 }
