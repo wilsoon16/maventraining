@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class Grocery {
 
-	int quantity;
-	int item;
-	int price;
+	private int quantity;
+	private int item;
+	private int price;
 	static Map<String, Float> vegetablePrice = new HashMap<>();
 	static Map<String, Integer> vegetableQuantity = new HashMap<>();
 	Map<String, Integer> purchasedVegetable = new HashMap<>();
