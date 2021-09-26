@@ -2,9 +2,9 @@ package org.tokopedia.training;
 
 public class Customer {
 
-	String memberStatus;
-	float discountRate;
-	int memberFee;
+	private String memberStatus;
+	private float discountRate;
+	private int memberFee;
 
 	Customer() {
 		this.memberStatus = "non member";
